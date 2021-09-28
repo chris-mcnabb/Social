@@ -1,0 +1,113 @@
+.login {
+    width: 100vw;
+    height: 100vh;
+   background-image: linear-gradient(to right top, #63adf5, #00ceff, #00e8d8, #3ff784, #e0f70a);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginWrapper {
+    width: 70%;
+    height: 70%;
+    display: flex;
+}
+
+.loginLeft, .loginRight {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.loginLogo {
+    font-size: 50px;
+    font-weight: 800;
+    color: #1775ee;
+    margin-bottom: 10px;
+}
+
+.loginDesc {
+    font-size: 24px;
+}
+
+.loginBox {
+    height: 300px;
+    padding: 20px;
+    border: solid gray;
+    border-radius: 10px;
+    display: flex;
+   flex-direction: column;
+    justify-content: space-between;
+    box-shadow:
+            12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+            -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+}
+
+.loginInput {
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    background: transparent;
+    font-size: 18px;
+    padding-left: 20px;
+    box-shadow:
+            12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+            -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+}
+
+.loginInput:focus {
+    outline: none;
+}
+
+.loginButton {
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 20px;
+    background: transparent;
+    box-shadow:
+            12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+            -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+    font-weight: bolder;
+    cursor: pointer;
+    color: #1775ee;
+}
+.loginButton:hover {
+    border-radius: 10px;
+    box-shadow: inset 8px 8px 16px rgba(0, 0, 0, 0.25),
+    inset -8px -8px 16px rgba(255, 255, 255, 0.3);
+}
+.loginButton:disabled {
+    cursor: not-allowed;
+}
+
+.loginForgot {
+    text-align: center;
+    color: #1775ee;
+    cursor: pointer;
+}
+
+.loginRegisterButton {
+    width: 60%;
+    align-self: center;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 18px;
+    background: transparent;
+    box-shadow:
+            12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+            -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+    font-weight: bolder;
+    cursor: pointer;
+    color: #1775ee;
+}
+
+.loginRegisterButton:hover {
+    border-radius: 10px;
+    box-shadow: inset 8px 8px 16px rgba(0, 0, 0, 0.25),
+    inset -8px -8px 16px rgba(255, 255, 255, 0.3);
+}
+
+

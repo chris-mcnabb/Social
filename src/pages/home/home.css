@@ -1,0 +1,5 @@
+.homeContainer {
+    display: flex;
+    width: 100%;
+    background-image: linear-gradient(to right top, #63adf5, #00ceff, #00e8d8, #3ff784, #e0f70a);
+}
